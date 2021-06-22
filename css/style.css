@@ -34,6 +34,7 @@ section {
 	justify-content: space-around;
 	align-items: center;
 	background: var(--white);
+    transition: all 0.2s linear;
 }
 
 header {
@@ -72,6 +73,7 @@ header ul li a {
 	color: var(--black);
 	font-weight: 500;
 	text-decoration: none;
+    transition: all 0.2s linear;
 }
 
 .content {
@@ -96,11 +98,13 @@ header ul li a {
 	line-height: 1.4em;
 	font-weight: 700;
 	margin-bottom: 10px;
+    transition: all 0.2s linear;
 }
 
 .content .textbox h2 span {
 	font-size: 1.2em;
 	color: var(--green);
+    transition: all 0.2s linear;
 }
 
 .dark .content .textbox h2 span {
@@ -109,6 +113,7 @@ header ul li a {
 
 .content .textbox p {
     color: var(--black);
+    transition: all 0.2s linear;
 }
 
 .content .textbox a {
@@ -121,6 +126,7 @@ header ul li a {
 	font-weight: 500;
 	text-decoration: none;
 	letter-spacing: 1px;
+    transition: all 0.2s linear;
 }
 
 .content .imgbox {
@@ -171,6 +177,7 @@ header ul li a {
 	justify-content: center;
 	align-items: center;
 	text-decoration: none;
+    transition: all 0.2s linear;
 }
 
 .sci li a .fa {
@@ -192,6 +199,7 @@ header ul li a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+    transition: all 0.2s linear;
 }
 
 .theme-switch::before {
@@ -288,6 +296,7 @@ header ul li a {
         background-repeat: no-repeat;
         cursor: pointer;
         z-index: 1000;
+        transition: all 0.2s linear;
     }
 
     .toggle.active {
