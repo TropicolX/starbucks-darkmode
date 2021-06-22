@@ -296,9 +296,6 @@ header ul li a {
         background-repeat: no-repeat;
         cursor: pointer;
         z-index: 1000;
-        transition: all 0.2s linear;
-        -webkit-transition: all 0.2s linear;
-        -o-transition: all 0.2s linear;
     }
 
     .toggle.active {
